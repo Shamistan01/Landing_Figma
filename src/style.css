@@ -62,8 +62,53 @@ select {
   font: inherit;
 }
 
+.wrapper{
+  margin: auto;
+  max-width: 1440px;
+}
+
 .footer{
   position: fixed;
   bottom: 0;
+  width: 100%;
+  max-width: 1440px;
+  
 }
 
+.footer__upper{
+  background: #9DC9C8;
+}
+
+.footer__bottom{
+  background-color: #000000;
+  color: white;
+}
+
+.herader{
+  font-weight: bold;
+  font-size: 55px;
+}
+.footer__top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__icon{
+  display: flex;
+}
+
+.mobile{
+  display: flex;
+}
+.mail{
+  display: flex;
+}
+
+
+@media (min-width: 992px) and (max-width: 1279px){
+
+}
+
+@media (min-width: 320px ) and (max-width: 991px){
+  
+}
