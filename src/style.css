@@ -61,3 +61,35 @@ textarea,
 select {
   font: inherit;
 }
+
+body {
+    font-family: Roboto, monospace;
+}
+
+.container {
+    margin: 0px auto;
+    width: 80%;
+}
+
+.quote {
+    background-color: #1e4681;
+    border-radius: 3px;
+    width: 300px;
+    height: 120px;
+}
+.quote__p-wrapper {
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+.quote__p {
+    font-weight: 400px;
+    font-size: 14px;
+    font-family: 'Roboto Slab';
+}
+.author {
+    padding-top: 10px;
+    font-size: 12px;
+    text-align: right;
+}
