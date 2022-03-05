@@ -75,13 +75,13 @@ select {
   padding: 12.4% 10.2% 12.9% 8.5%;
 }
 
+.footer__word {
+  font-size: 25px;
+}
 .footer__bottom {
   background-color: #000000;
   color: white;
   padding: 3.5% 10.1% 2% 8.5%;
-}
-.footer__word {
-  font-size: 25px;
 }
 .footer__number {
   font-size: 80px;
@@ -92,6 +92,7 @@ select {
   font-size: 55px;
   font-family: "Roboto Slab", serif;
   margin-bottom: 4.5%;
+  
 }
 .footer__bottom-top {
   display: flex;
@@ -187,4 +188,22 @@ select {
   .footer__text {
     flex-wrap: wrap;
   }
+  .herader {
+    font-size: 26px;
+  }
+  .footer__word {
+    font-size: 12px;
+  }
+  .footer__number{
+    font-size: 37px;
+  }
+  .text__header{
+    font-size: 12px;
+  }
+  .text {
+    font-size: 10px;
+    max-width: 138px;
+    line-height: 1;
+  }
 }
+
