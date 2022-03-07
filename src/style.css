@@ -62,34 +62,36 @@ select {
   font: inherit;
 }
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-.wrapper {
-  line-height: 1;
-}
-main {
+
+/*------------------------------------------------------------------*/
+.container{
   margin: auto;
   max-width: 1440px;
+}
+.footer__container_upper {
   padding: 179px 410px 185px 122px;
 }
+.footer__container_bottom {
+  padding: 50px 146px 23px 122px;
+}
+/*--------------------------------------------------------------------*/
 .footer {
   font-family: "Roboto", sans-serif;
+  line-height: 1;
 }
 .footer__upper {
   background: #9dc9c8;
-}
-
-section {
-  margin: auto;
-  max-width: 1440px;
-  padding: 50px 146px 23px 122px;
-}
-.footer__word {
-  font-size: 25px;
-  margin-bottom: 10px;
 }
 .footer__bottom {
   background-color: #000000;
   color: white;
 }
+/*--------------------------------------------------------------------*/
+.footer__word {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
 .footer__number {
   font-size: 80px;
   margin-bottom: 6.4%;
