@@ -91,7 +91,6 @@ select {
   font-size: 25px;
   margin-bottom: 10px;
 }
-
 .footer__number {
   font-size: 80px;
   margin-bottom: 6.4%;
@@ -162,13 +161,13 @@ select {
 }
 
 @media (min-width: 992px) and (max-width: 1279px) {
-  main {
-    margin: auto;
+  .footer__container_upper {
+    
     max-width: 834px;
     padding: 103px 237px 107px 70px;
   }
 
-  section {
+  .footer__container_bottom {
     margin: auto;
     max-width: 834px;
     padding: 29px 84px 13px 70px;
@@ -221,13 +220,12 @@ select {
 }
 
 @media (min-width: 320px) and (max-width: 991px) {
-  main {
-    margin: auto;
+  .footer__container_upper {
     max-width: 375px;
     padding: 62px 32px 72px 35px;
   }
 
-  section {
+  .footer__container_bottom {
     margin: auto;
     max-width: 375px;
     padding: 23px 188px 10px 35px;
