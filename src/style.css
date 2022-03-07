@@ -1,63 +1,106 @@
-/* Указываем box sizing */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+@media screen and (min-width: 1199px) {
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+  body {
+    font-family: "Roboto", sans-serif;
+    margin-left: 121px;
+  }
+  .container {
+    width: 80%;
+  }
+  h1 {
+    width: 90%;
+    height: 93px;
+    font-size: 35px;
+  }
+  .container_header_columns_up {
+    color: #1e4681;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .container_header_columns_down {
+    font-size: 18px;
+  }
+  .container_header_columns {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+  }
+  .container_footer {
+    margin-top: 160px;
+  }
+  li {
+    font-size: 24px;
+  }
 }
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+  body {
+    font-family: "Roboto", sans-serif;
+    margin-left: 70.08px;
+  }
+  .container {
+    width: 80%;
+  }
+  h1 {
+    width: 386.3px;
+    height: 53.86px;
+    font-size: 32px;
+  }
+  .container_header_columns {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+  }
+  .container_header_columns_up {
+    color: #1e4681;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .container_header_columns_down {
+    font-size: 11px;
+  }
 
-/* Убираем внутренние отступы */
-ul[class],
-ol[class] {
-  padding: 0;
+  .container_footer {
+    margin-top: 160px;
+    width: 383.41px;
+    height: 216.61px;
+  }
+  li {
+    font-size: 14px;
+  }
 }
+@media screen and (min-width: 320px) and (max-width: 991px) {
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+  body {
+    font-family: "Roboto", sans-serif;
+    margin-left: 36px;
+  }
+  .container {
+    width: 80%;
+  }
+  h1 {
+    width: 310.8px;
+    height: 43.34px;
+    font-size: 32px;
+  }
+  .container_header_columns {
+    width: 80%;
+  }
+  .container_header_columns_up {
+    color: #1e4681;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .container_header_columns_down {
+    font-size: 10px;
+  }
 
-/* Убираем внешние отступы */
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-ul[class],
-ol[class],
-li,
-figure,
-figcaption,
-blockquote,
-dl,
-dd {
-  margin: 0;
-}
-
-/* Выставляем основные настройки по-умолчанию для body */
-body {
-  min-height: 100vh;
-  scroll-behavior: smooth;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
-}
-
-/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
-ul[class],
-ol[class] {
-  list-style: none;
-}
-
-/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
-a:not([class]) {
-  text-decoration-skip-ink: auto;
-}
-
-/* Упрощаем работу с изображениями */
-img {
-  max-width: 100%;
-  display: block;
-}
-
-/* Наследуем шрифты для инпутов и кнопок */
-input,
-button,
-textarea,
-select {
-  font: inherit;
+  .container_footer {
+    margin-top: 100px;
+    width: 299px;
+    height: 174px;
+  }
+  li {
+    font-size: 12px;
+  }
 }
