@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 /* Указываем box sizing */
 *,
 *::before,
@@ -60,4 +62,174 @@ button,
 textarea,
 select {
   font: inherit;
+}
+
+/* my code */
+body {
+  margin: 0px auto;
+  font-family: Roboto;
+}
+
+.main_container {
+  background-color: #efefef;
+  margin: 0px auto;
+}
+
+.container {
+  margin: 0px auto;
+  height: 780px;
+  max-width: 1440px;
+}
+
+.container__header {
+  font-family: Roboto Slab;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 56px;
+  padding-top: 91px;
+  margin-left: 122px;
+}
+
+.card {
+  height: 451px;
+  width: 791px;
+  border-radius: 30px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  margin-left: 126px;
+  margin-top: 54px;
+}
+
+.card__text {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 40px 45px 0px 46px;
+}
+
+.card__social {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.card__social__photo img {
+  height: 169px;
+  width: 190px;
+}
+
+.card__social__meta__name {
+  margin-top: 40px;
+}
+
+.card__social__meta__name__text {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.card__social__meta__icon img {
+  height: 31px;
+  width: 32px;
+  margin-top: 20px;
+}
+
+@media (min-width: 992px) and (max-width: 1279px) {
+  .main_container {
+    margin: 0px auto;
+  }
+  .container {
+    height: 452px;
+    max-width: 834px;
+  }
+
+  .container__header {
+    padding-top: 40px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+
+  .card {
+    margin-top: 30px;
+    height: 261px;
+    width: 458px;
+    border-radius: 17.375px;
+  }
+
+  .card__text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-top: 24px;
+  }
+  .card__social {
+    margin-top: 1px;
+  }
+  .card__social__photo img {
+    height: 97px;
+    width: 110px;
+  }
+  .card__social__meta {
+    margin-top: -20px;
+  }
+  .card__social__meta__name__text {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 17px;
+  }
+  .card__social__meta__icon img {
+    height: 18px;
+    width: 19px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+  .main_container {
+    margin: 0px auto;
+  }
+  .container {
+    height: 423px;
+    width: 376px;
+  }
+  .container__header {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26px;
+    padding-top: 20px;
+    margin-left: 0px;
+  }
+  .card {
+    margin-top: 20px;
+    margin-left: 0px;
+    height: 248px;
+    width: 308px;
+    border-radius: 14px;
+  }
+  .card__text {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    padding: 20px;
+  }
+  .card__social {
+    margin-top: -10px;
+  }
+  .card__social__photo img {
+    height: 84px;
+    width: 80px;
+  }
+  .card__social__meta {
+    margin-top: -20px;
+  }
+  .card__social__meta__name__text {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+  }
+  .card__social__meta__icon img {
+    height: 17px;
+    width: 15px;
+  }
 }
