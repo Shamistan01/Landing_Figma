@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 /* Указываем box sizing */
 *,
 *::before,
@@ -60,4 +61,27 @@ button,
 textarea,
 select {
   font: inherit;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.block6__title {
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  font-size: 55px;
+}
+
+/* ---------------------------------upper-block------------------------------- */
+
+.upper-block {
+  display: flex;
+}
+
+.upper-block__paragraph {
+  font-family: "Roboto", sans-serif;
+  max-width: 662px;
+  font-size: 24px;
 }
