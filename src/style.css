@@ -62,39 +62,59 @@ textarea,
 select {
   font: inherit;
 }
+/* --------------------------------- */
 
-.container {
+.block2 {
   max-width: 1440px;
-  margin: auto;
+  margin: 0 auto;
 }
 
-.block6__title {
+.block2__wrapper {
+  margin: 0 153px 162px 121px;
+}
+
+.block2__title {
   font-family: "Roboto Slab", serif;
   font-weight: bold;
   font-size: 55px;
+  margin-bottom: 50px;
 }
 
 /* ---------------------------------upper-block------------------------------- */
 
 .upper-block {
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
+.upper-block__paragraph-wrapper {
+  margin-bottom: 78px;
+}
 .upper-block__paragraph {
   font-family: "Roboto", sans-serif;
   max-width: 662px;
   font-size: 24px;
+  margin-bottom: 45px;
 }
 
-.upper-block__right-img{
+.upper-block__right-img {
   position: relative;
+  top: 30px;
 }
 
-
-.upper-block__right-shadow{
+.upper-block__shadow {
   position: absolute;
-  bottom: 20px;
+  bottom: 185px;
   left: -30px;
   width: 150%;
   z-index: -1;
+}
+
+/* ----------------------------------------------------------------- */
+
+@media (min-width: 992px) and (max-width: 1279px) {
+  .container {
+    max-width: 834px;
+  }
 }
