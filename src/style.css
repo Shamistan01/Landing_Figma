@@ -76,7 +76,7 @@ body {
   margin: 0px auto;
 }
 
-.main-header-wrapper {
+.header {
   font-family: Roboto Slab;
   font-size: 55px;
   font-weight: 700;
@@ -85,14 +85,14 @@ body {
   margin-top: 20px;
 }
 
-.inner_containers {
+.inn_containers {
   display: flex;
   flex-wrap: wrap;
   margin-left: 49px;
   margin-top: 95px;
 }
 
-.little_container {
+.inn_containers__element {
   width: 399px;
   height: 328px;
   border-radius: 30px;
@@ -100,12 +100,12 @@ body {
   margin: 30px;
 }
 
-.little_container img {
+.inn_containers__element img {
   width: 399px;
   height: 160px;
 }
 
-.header-p-wrapper {
+.inn_containers__element__header {
   font-size: 30px;
   font-weight: 700;
   line-height: 39px;
@@ -113,7 +113,7 @@ body {
   margin-left: 10px;
 }
 
-.little_container p:last-child {
+.inn_containers__element p:last-child {
   font-size: 25px;
   font-weight: 400;
   line-height: 32px;
@@ -126,7 +126,7 @@ body {
     max-width: 1260px;
     margin: 0px auto;
   }
-  .main-header-wrapper {
+  .header {
     font-family: Roboto Slab;
     font-size: 32px;
     font-weight: 700;
@@ -134,29 +134,29 @@ body {
     margin-left: 140px;
   }
 
-  .inner_containers {
+  .inn_containers {
     margin: 0px auto;
     display: flex;
     margin: 55px 0px 0px 100px;
   }
 
-  .little_container {
+  .inn_containers__element {
     height: 190px;
     width: 231px;
     border-radius: 17.375px;
   }
 
-  .little_container img {
+  .inn_containers__element img {
     height: 92px;
     width: 231px;
   }
-  .header-p-wrapper {
+  .inn_containers__element__header {
     font-size: 17px;
     font-weight: 700;
     line-height: 22px;
   }
 
-  .little_container p:last-child {
+  .inn_containers__element p:last-child {
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
@@ -169,36 +169,36 @@ body {
     margin: 0px auto;
   }
 
-  .main-header-wrapper {
+  .header {
     font-family: Roboto Slab;
     font-size: 26px;
     font-weight: 700;
     line-height: 26px;
   }
 
-  .inner_containers {
+  .inn_containers {
     display: flex;
     /* flex-direction: column; */
     justify-content: center;
     margin-top: 40px;
   }
-  .little_container {
+  .inn_containers__element {
     height: 153px;
     width: 186px;
     border-radius: 14px;
   }
-  .little_container img {
+  .inn_containers__element img {
     height: 75px;
     width: 186px;
   }
 
-  .header-p-wrapper {
+  .inn_containers__element__header {
     font-size: 14px;
     font-weight: 700;
     line-height: 18px;
   }
 
-  .little_container p:last-child {
+  .inn_containers__element p:last-child {
     font-size: 12px;
     font-weight: 400;
     line-height: 16px;
