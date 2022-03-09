@@ -90,10 +90,8 @@ select {
 }
 /* ----------------------------------------------------header------------------------------------------ */
 
-
-
 .container {
-  margin: 0px auto;
+  margin: 0 auto;
   max-width: 1440px;
 }
 
@@ -151,16 +149,12 @@ header {
   position: relative;
 }
 
-/* .first-block__ellipse {
+.first-block__ellipse {
   position: absolute;
-  background: #efefef;
-  height: 41px;
-  top: 340px;
-  bottom: 20px;
-  left: -30px;
-  width: 130%;
   z-index: -1;
-} */
+  bottom: -20px;
+  left: 20px;
+}
 
 .quote-wrapper {
   display: flex;
@@ -233,7 +227,7 @@ header {
 
 .upper-block__shadow {
   position: absolute;
-  bottom: 120px;
+  bottom: 180px;
   left: -30px;
   width: 150%;
   z-index: -1;
@@ -285,7 +279,9 @@ header {
   line-height: 130%;
 }
 /*-------------------------------block3------------------------------------------*/
-
+ul{
+    padding: 20px;
+}
 .block3__container {
   max-width: 1440px;
   margin: 0 auto;
@@ -294,10 +290,10 @@ header {
 
 /* .container_header{
 } */
-h1 {
+.block3__title {
   width: 90%;
   height: 93px;
-  font-size: 35px;
+  font-size: 55px;
 }
 .container_header_columns_up {
   color: #1e4681;
@@ -330,7 +326,7 @@ li {
   font-size: 55px;
   font-weight: 700;
   line-height: 56px;
-  margin-left: 99px;
+  margin-left: 121px;
   margin-top: 100px;
 }
 
@@ -376,10 +372,10 @@ li {
   margin: 0px auto;
 }
 
-.container {
+.container__wrapper {
   margin: 0px auto;
-  height: 780px;
   max-width: 1440px;
+  height: 780px;
 }
 
 .container__header {
@@ -551,7 +547,7 @@ li {
   /* ----------------------------------------------------header------------------------------------------ */
 
   .container {
-    width: 834px;
+    max-width: 834px;
   }
   header {
     margin: 22px 0px 0px 70px;
@@ -559,9 +555,11 @@ li {
   .first-block {
     margin: 55px 141px 0px 70px;
   }
-  /* .first-block__elements-wrapper {
-      width: 400px;
-    } */
+  .first-block__ellipse {
+    width: 60%;
+    left: 120px;
+    bottom: -15px;
+  }
   .first-block__img-wrapper {
     justify-content: flex-end;
   }
@@ -663,9 +661,10 @@ li {
 
   /* -------------------------block3---------------------------------- */
   .block3__container {
-    width: 80%;
+    max-width: 834px;
+    padding-left: 70px;
   }
-  h1 {
+  .block3__title {
     width: 386.3px;
     height: 53.86px;
     font-size: 32px;
@@ -687,7 +686,6 @@ li {
   .container_footer {
     margin-top: 100px;
     width: 383.41px;
-    height: 216.61px;
   }
   li {
     font-size: 14px;
@@ -710,13 +708,14 @@ li {
   .inn_containers {
     margin: 0px auto;
     display: flex;
-    margin: 55px 0px 0px 100px;
+    margin-top: 55px;
   }
 
   .inn_containers__element {
     height: 190px;
     width: 231px;
     border-radius: 17.375px;
+    margin: 21px;
   }
 
   .inn_containers__element img {
@@ -739,9 +738,19 @@ li {
   .main_container {
     margin: 0px auto;
   }
-  .container {
+  .container__wrapper {
     height: 452px;
     max-width: 834px;
+  }
+
+  .main_container-wrapper{
+      max-width: 834px;
+      margin: auto;
+  }
+
+  .fourth-block__title{
+      font-size: 32px;
+      margin-left: 70px;
   }
 
   .container__header {
@@ -749,6 +758,7 @@ li {
     font-size: 32px;
     font-weight: 700;
     line-height: 32px;
+    margin-left: 70.6px;
   }
 
   .card {
@@ -756,6 +766,7 @@ li {
     height: 261px;
     width: 458px;
     border-radius: 17.375px;
+    margin-left: 72px;
   }
 
   .card__text {
@@ -883,17 +894,22 @@ li {
   /* ----------------------------------------------------header------------------------------------------ */
 
   .container {
-    min-width: 375px;
-    margin: 0px 30px;
+    max-width: 375px;
   }
   header {
-    margin: 36px 0px 0px 5px;
+    margin: 36px 0px 0px 35px;
+  }
+
+  .first-block__ellipse {
+    width: 50%;
+    left: 170px;
+    bottom: -10px;
   }
   .logo {
     width: 14%;
   }
   .first-block {
-    margin: 45px 32px 0px 5px;
+    margin: 45px 32px 0px 35px;
   }
   .first-block__elements-wrapper {
     width: 80%;
@@ -932,7 +948,7 @@ li {
   }
   .first-block__p {
     font-size: 10px;
-    min-width: 75px;
+    max-width: 75px;
   }
   .first-block__h {
     font-size: 36px;
@@ -1017,9 +1033,10 @@ li {
   /* ----------------------------------------------------block3------------------------------------------ */
 
   .block3__container {
-    max-width: 1440px;
+    max-width: 375px;
+    padding-left: 35px;
   }
-  h1 {
+  .block3__title {
     width: 310.8px;
     height: 43.34px;
     font-size: 32px;
@@ -1036,12 +1053,13 @@ li {
   }
   .container_header_columns_down {
     font-size: 10px;
+    width: 200px;
+    margin-bottom: 10px;
   }
 
   .container_footer {
     margin-top: 100px;
     width: 299px;
-    height: 174px;
   }
   li {
     font-size: 12px;
@@ -1053,11 +1071,15 @@ li {
     margin: 0px auto;
   }
 
+  .inn_containers__element:last-child{
+      margin-bottom: 47px;
+  }
+
   .fourth-block__title {
-    font-family: Roboto Slab;
     font-size: 26px;
-    font-weight: 700;
     line-height: 26px;
+    margin-left: 35px;
+    margin-top: 63px;
   }
 
   .inn_containers {
@@ -1065,6 +1087,7 @@ li {
     /* flex-direction: column; */
     justify-content: center;
     margin-top: 40px;
+    margin-left: 0px;
   }
   .inn_containers__element {
     height: 153px;
@@ -1093,7 +1116,7 @@ li {
   .main_container {
     margin: 0px auto;
   }
-  .container {
+  .container__wrapper {
     height: 423px;
     width: 376px;
   }
@@ -1101,12 +1124,13 @@ li {
     font-size: 26px;
     font-weight: 700;
     line-height: 26px;
-    padding-top: 20px;
-    margin-left: 0px;
+    padding-top: 42px;
+    margin-left: 35px;
+    max-width: 257px;
   }
   .card {
     margin-top: 20px;
-    margin-left: 0px;
+    margin-left: 35px;
     height: 248px;
     width: 308px;
     border-radius: 14px;
@@ -1119,10 +1143,11 @@ li {
   }
   .card__social {
     margin-top: -10px;
+    margin-left: 5px;
   }
   .card__social__photo img {
-    height: 84px;
-    width: 80px;
+    height: 80px;
+    width: 90px;
   }
   .card__social__meta {
     margin-top: -20px;
@@ -1223,12 +1248,4 @@ li {
     margin: 0px 0px 10px 35px;
     font-size: 10px;
   }
-}
-
-/* my code */
-
-@media (min-width: 992px) and (max-width: 1279px) {
-}
-
-@media (min-width: 320px) and (max-width: 991px) {
 }
