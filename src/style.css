@@ -1,37 +1,36 @@
-@media screen and (min-width: 1199px) {
-  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
-  body {
-    font-family: "Roboto", sans-serif;
-    margin-left: 121px;
-  }
-  .container {
-    width: 80%;
-  }
-  h1 {
-    width: 90%;
-    height: 93px;
-    font-size: 35px;
-  }
-  .container_header_columns_up {
-    color: #1e4681;
-    font-weight: bold;
-    font-size: 25px;
-  }
-  .container_header_columns_down {
-    font-size: 18px;
-  }
-  .container_header_columns {
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-  }
-  .container_footer {
-    margin-top: 160px;
-  }
-  li {
-    font-size: 24px;
-  }
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  margin-left: 121px;
 }
+.container {
+  width: 80%;
+}
+h1 {
+  width: 90%;
+  height: 93px;
+  font-size: 35px;
+}
+.container_header_columns_up {
+  color: #1e4681;
+  font-weight: bold;
+  font-size: 25px;
+}
+.container_header_columns_down {
+  font-size: 18px;
+}
+.container_header_columns {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.container_footer {
+  margin-top: 160px;
+}
+li {
+  font-size: 24px;
+}
+
 @media screen and (min-width: 992px) and (max-width: 1279px) {
   @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
   body {
@@ -85,6 +84,8 @@
   }
   .container_header_columns {
     width: 80%;
+    display: flex;
+    flex-wrap: wrap;
   }
   .container_header_columns_up {
     color: #1e4681;
