@@ -320,9 +320,117 @@ li {
 
 /* ----------------------------------------------------block5------------------------------------------ */
 
-/* ----------------------------------------------------block6-footer----------------------------------- */
+/* ----------------------------------------block6----------------------------------------------------- */
 
-@media (max-width: 1279px) and (min-width: 992px) {
+.block6 {
+  background-color: #9dc9c8;
+  font-family: "Roboto", sans-serif;
+}
+
+.block6__title {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 55px;
+  font-family: "Roboto Slab", serif;
+  margin: 179px 0 54px 122px;
+}
+
+.block6__price {
+  line-height: 1.1;
+  margin: 0 0 69px 122px;
+}
+
+.block6__price-word {
+  font-size: 25px;
+}
+
+.block6__price-number {
+  font-size: 80px;
+}
+
+.block6__paragraph-wrapper {
+  display: inline-flex;
+  margin: 0 0 185px 122px;
+}
+
+.paragraph {
+  line-height: 1.1;
+  max-width: 294px;
+  margin-right: 70px;
+}
+
+.paragraph__title {
+  font-size: 25px;
+  margin-bottom: 9px;
+}
+
+.paragraph__text {
+  font-size: 18px;
+}
+
+/* -----------------------------------footer------------------------------------------ */
+
+.footer {
+  background-color: black;
+  color: white;
+}
+
+.footer__upper {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 50px 0 146px 122px;
+  flex-wrap: wrap;
+}
+
+.footer__container {
+  padding-right: 340px;
+}
+
+.footer__icons-left {
+  display: flex;
+}
+
+.icon__left {
+  margin: 30px 30px 0 0;
+  width: 33px;
+  height: 33px;
+}
+
+.footer__right-side {
+  font-size: 25px;
+}
+
+.mobile {
+  display: flex;
+}
+
+.mail {
+  display: flex;
+  align-items: center;
+}
+.mobile__number {
+  margin-top: -5px;
+}
+
+.mobile__icon {
+  margin-right: 5%;
+  margin-bottom: 10%;
+}
+
+.mail__icon {
+  margin-right: 10px;
+}
+
+.footer__copyright {
+  display: inline-block;
+  margin: 0px 0px 30px 122px;
+  font-size: 18px;
+}
+
+/* -----------------------------------@media------------------------------------------ */
+
+@media (min-width: 992px) and (max-width: 1279px) {
   /* tablet resolution */
 
   /* ----------------------------------------------------header------------------------------------------ */
@@ -515,6 +623,92 @@ li {
   /* ----------------------------------------------------block5------------------------------------------ */
 
   /* ----------------------------------------------------block6-footer----------------------------------- */
+  .container {
+    max-width: 834px;
+  }
+
+  .block6__title {
+    font-size: 32px;
+    margin: 103.5px 0 31.2px 71px;
+  }
+
+  .block6__price {
+    margin: 0 0 41px 71px;
+  }
+
+  .block6__price-word {
+    font-size: 14px;
+  }
+
+  .block6__price-number {
+    font-size: 46px;
+  }
+
+  .block6__paragraph-wrapper {
+    margin: 0 0 115.5px 71px;
+  }
+
+  .paragraph {
+    max-width: 170px;
+    margin-right: 40.5px;
+  }
+
+  .paragraph__title {
+    font-size: 14px;
+    margin-bottom: 5.5px;
+  }
+
+  .paragraph__text {
+    font-size: 10px;
+  }
+  /* ----------------------------- */
+
+  .footer__upper {
+    margin: 29px 0 85px 71px;
+  }
+
+  .footer__container {
+    padding-right: 200px;
+  }
+
+  .icon__left {
+    margin: 17.3px 17.3px 0 0;
+    width: 19.11px;
+    height: 19.11px;
+  }
+  .footer__logo {
+    width: 66.6px;
+    height: 39.38px;
+  }
+  .footer__right-side {
+    font-size: 14px;
+  }
+
+  .mail {
+    display: flex;
+    align-items: center;
+  }
+  .mobile__number {
+    margin-top: -2px;
+  }
+
+  .mobile__icon {
+    margin-right: 5%;
+    margin-bottom: 10%;
+    width: 15.64px;
+    height: 15.64px;
+  }
+
+  .mail__icon {
+    margin-right: 10px;
+    width: 15.64px;
+    height: 10.43px;
+  }
+
+  .footer__copyright {
+    margin: 0px 0px 26px 71px;
+    font-size: 10px;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 991px) {
@@ -731,5 +925,91 @@ li {
 
   /* ----------------------------------------------------block5------------------------------------------ */
 
-  /* ----------------------------------------------------block6-footer------------------------------------------ */
+  /* --------------------------------------------------block6-footer------------------------------------- */
+
+  .container {
+    max-width: 375px;
+  }
+  .block6__title {
+    font-size: 26px;
+    margin: 62px 115px 22.3px 35px;
+  }
+
+  .block6__price {
+    margin: 0 0 35.3px 35px;
+  }
+
+  .block6__price-word {
+    font-size: 12px;
+  }
+
+  .block6__price-number {
+    font-size: 37px;
+  }
+
+  .block6__paragraph-wrapper {
+    margin: 0 0 70px 35px;
+  }
+
+  .paragraph {
+    max-width: 138px;
+    margin-right: 31px;
+  }
+
+  .paragraph__title {
+    font-size: 12px;
+    margin-bottom: 5.5px;
+  }
+
+  .paragraph__text {
+    font-size: 10px;
+  }
+  /* ----------------------------- */
+
+  .footer__upper {
+    margin: 23px 0 50px 35px;
+  }
+
+  .footer__container {
+    padding-right: 200px;
+  }
+
+  .icon__left {
+    margin: 14px 14px 47.6px 0;
+    width: 15.38px;
+    height: 15.38px;
+  }
+  .footer__logo {
+    width: 53.59px;
+    height: 31.69px;
+  }
+  .footer__right-side {
+    font-size: 12px;
+  }
+
+  .mail {
+    display: flex;
+    align-items: center;
+  }
+  .mobile__number {
+    margin-top: -2px;
+  }
+
+  .mobile__icon {
+    margin-right: 5%;
+    margin-bottom: 5%;
+    width: 12.58px;
+    height: 12.58px;
+  }
+
+  .mail__icon {
+    margin-right: 10px;
+    width: 12.58px;
+    height: 8.39px;
+  }
+
+  .footer__copyright {
+    margin: 0px 0px 10px 35px;
+    font-size: 10px;
+  }
 }
