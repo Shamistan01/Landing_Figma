@@ -32,13 +32,41 @@ dd {
 }
 
 /* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
 
 /* ----------------------------------------------------header------------------------------------------ */
 
-body {
-  margin: 0px auto;
-  font-family: roboto;
-}
+
 
 .container {
   margin: 0px auto;
@@ -505,8 +533,8 @@ li {
 
   .upper-block__img-wrapper {
     top: 30px;
-    width: 181.86px;
-    height: 182.44px;
+    max-width: 181.86px;
+    max-height: 182.44px;
   }
 
   .upper-block__shadow {
