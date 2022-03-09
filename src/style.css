@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 /* Указываем box sizing */
 *,
@@ -66,11 +66,12 @@ select {
 
 /* --------------------------------------------------------- */
 body {
-  font-family: 'Roboto', sans-serif;
+  margin: 0px auto;
+  font-family: roboto;
 }
 
 .container {
-  margin: 0px auto;
+  /* margin: 0px auto; */
   max-width: 1440px;
 }
 
@@ -109,7 +110,7 @@ header {
 }
 
 .first-block__h {
-  font-family: "Roboto Slab",serif;
+  font-family: Roboto Slab;
   font-weight: bolder;
   font-size: 80px;
   margin-bottom: 20px;
@@ -143,6 +144,7 @@ header {
   display: flex;
   justify-content: center;
   box-sizing: border-box;
+  margin-bottom: 170px;
 }
 
 .quote {
@@ -167,6 +169,58 @@ header {
   margin: 1em auto;
 }
 
+/* my code */
+.main_container-wrapper {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.fourth-block__title {
+  font-family: Roboto Slab;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 56px;
+  margin-left: 99px;
+  margin-top: 20px;
+}
+
+.inn_containers {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 49px;
+  margin-top: 95px;
+}
+
+.inn_containers__element {
+  width: 399px;
+  height: 328px;
+  border-radius: 30px;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+  margin: 30px;
+}
+
+.inn_containers__element img {
+  width: 399px;
+  height: 160px;
+}
+
+.inn_containers__element__header {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 39px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.inn_containers__element p:last-child {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
 @media (max-width: 1279px) and (min-width: 992px) {
   /* tablet resolution */
   .container {
@@ -179,8 +233,8 @@ header {
     margin: 55px 141px 0px 70px;
   }
   /* .first-block__elements-wrapper {
-    width: 400px;
-  } */
+      width: 400px;
+    } */
   .first-block__img-wrapper {
     justify-content: flex-end;
   }
@@ -196,6 +250,9 @@ header {
   .first-block__p {
     font-size: 12px;
   }
+  .quote-wrapper {
+    margin-bottom: 100px;
+  }
   .quote {
     width: 280px;
     height: 115px;
@@ -208,6 +265,45 @@ header {
   }
   .first-block__element {
     width: 25%;
+  }
+  .main_container-wrapper {
+    max-width: 1260px;
+    margin: 0px auto;
+  }
+  .header {
+    font-family: Roboto Slab;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-left: 140px;
+  }
+
+  .inn_containers {
+    margin: 0px auto;
+    display: flex;
+    margin: 55px 0px 0px 100px;
+  }
+
+  .inn_containers__element {
+    height: 190px;
+    width: 231px;
+    border-radius: 17.375px;
+  }
+
+  .inn_containers__element img {
+    height: 92px;
+    width: 231px;
+  }
+  .inn_containers__element__header {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22px;
+  }
+
+  .inn_containers__element p:last-child {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
   }
 }
 
@@ -273,6 +369,7 @@ header {
   }
   .quote-wrapper {
     justify-content: flex-start;
+    margin-bottom: 75px;
   }
   .quote {
     width: 225px;
@@ -284,5 +381,45 @@ header {
   .author {
     font-size: 10px;
     margin: 0px;
+  }
+  .main_container-wrapper {
+    max-width: 375px;
+    margin: 0px auto;
+  }
+
+  .header {
+    font-family: Roboto Slab;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26px;
+  }
+
+  .inn_containers {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .inn_containers__element {
+    height: 153px;
+    width: 186px;
+    border-radius: 14px;
+  }
+  .inn_containers__element img {
+    height: 75px;
+    width: 186px;
+  }
+
+  .inn_containers__element__header {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+  }
+
+  .inn_containers__element p:last-child {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-top: 9px;
   }
 }
