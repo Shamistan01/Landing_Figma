@@ -64,19 +64,119 @@ select {
   font: inherit;
 }
 
-/* my code */
+/* --------------------------------------------------------- */
 body {
   margin: 0px auto;
   font-family: roboto;
 }
 
+.container {
+  /* margin: 0px auto; */
+  max-width: 1440px;
+}
+
+header {
+  margin: 21px 0px 100px 121px;
+}
+
+.first-block {
+  margin: 0px 245px 0px 121px;
+}
+
+.first-block__elements-wrapper {
+  width: 500px;
+  margin-bottom: 30px;
+  /* margin-bottom: 2em; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-block__element {
+  display: flex;
+}
+
+.first-block__p {
+  padding-left: 10px;
+}
+
+.first-block__text-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.first-block__text {
+  width: 54%;
+}
+
+.first-block__h {
+  font-family: Roboto Slab;
+  font-weight: bolder;
+  font-size: 80px;
+  margin-bottom: 20px;
+  line-height: 1em;
+}
+
+.first-block__p-wrapper {
+  max-width: 415px;
+}
+.first-block__h-wrapper {
+  max-width: 630px;
+}
+
+.first-block__img-wrapper {
+  display: flex;
+  position: relative;
+}
+
+/* .first-block__ellipse {
+  position: absolute;
+  background: #efefef;
+  height: 41px;
+  top: 340px;
+  bottom: 20px;
+  left: -30px;
+  width: 130%;
+  z-index: -1;
+} */
+
+.quote-wrapper {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-bottom: 170px;
+}
+
+.quote {
+  background-color: #1e4681;
+  border-radius: 5px;
+  width: 500px;
+  height: 200px;
+  padding: 15px;
+}
+.quote__p-wrapper {
+  color: white;
+}
+
+.quote__p {
+  font-family: "Roboto Slab", serif;
+  font-size: 24px;
+  text-align: left;
+}
+.author {
+  font-size: 20px;
+  text-align: right;
+  margin: 1em auto;
+}
+
+/* my code */
 .main_container-wrapper {
   max-width: 1440px;
   width: 100%;
   margin: 0px auto;
 }
 
-.header {
+.fourth-block__title {
   font-family: Roboto Slab;
   font-size: 55px;
   font-weight: 700;
@@ -121,7 +221,51 @@ body {
   margin-left: 10px;
 }
 
-@media (min-width: 992px) and (max-width: 1279px) {
+@media (max-width: 1279px) and (min-width: 992px) {
+  /* tablet resolution */
+  .container {
+    width: 834px;
+  }
+  header {
+    margin: 22px 0px 0px 70px;
+  }
+  .first-block {
+    margin: 55px 141px 0px 70px;
+  }
+  /* .first-block__elements-wrapper {
+      width: 400px;
+    } */
+  .first-block__img-wrapper {
+    justify-content: flex-end;
+  }
+  .first-block__img {
+    width: 65%;
+  }
+  .first-block__h {
+    font-size: 46px;
+  }
+  .first-block__p-text {
+    font-size: 12px;
+  }
+  .first-block__p {
+    font-size: 12px;
+  }
+  .quote-wrapper {
+    margin-bottom: 100px;
+  }
+  .quote {
+    width: 280px;
+    height: 115px;
+  }
+  .quote__p {
+    font-size: 14px;
+  }
+  .author {
+    font-size: 12px;
+  }
+  .first-block__element {
+    width: 25%;
+  }
   .main_container-wrapper {
     max-width: 1260px;
     margin: 0px auto;
@@ -163,7 +307,81 @@ body {
   }
 }
 
-@media (min-width: 320px) and (max-width: 991px) {
+@media (max-width: 991px) and (min-width: 320px) {
+  /* mobile resolution */
+  .container {
+    min-width: 375px;
+    margin: 0px 30px;
+  }
+  header {
+    margin: 36px 0px 0px 5px;
+  }
+  .logo {
+    width: 14%;
+  }
+  .first-block {
+    margin: 45px 32px 0px 5px;
+  }
+  .first-block__elements-wrapper {
+    width: 80%;
+    margin-bottom: 8px;
+  }
+  .first-block__element {
+    width: 100%;
+  }
+  .first-block__text-wrapper {
+    display: block;
+    margin-bottom: 45px;
+  }
+  .first-block__h-wrapper {
+    width: 300px;
+  }
+  .first-block__p-wrapper {
+    width: 210px;
+  }
+  .first-block__img-wrapper {
+    justify-content: flex-end;
+  }
+  .first-block__img {
+    width: 142px;
+  }
+  .globe {
+    width: 10px;
+    height: 10px;
+  }
+  .clock {
+    width: 10px;
+    height: 10px;
+  }
+  .calendar {
+    width: 9px;
+    height: 10px;
+  }
+  .first-block__p {
+    font-size: 10px;
+    min-width: 75px;
+  }
+  .first-block__h {
+    font-size: 36px;
+  }
+  .first-block__p-text {
+    font-size: 10px;
+  }
+  .quote-wrapper {
+    justify-content: flex-start;
+    margin-bottom: 75px;
+  }
+  .quote {
+    width: 225px;
+    height: 95px;
+  }
+  .quote__p {
+    font-size: 11px;
+  }
+  .author {
+    font-size: 10px;
+    margin: 0px;
+  }
   .main_container-wrapper {
     max-width: 375px;
     margin: 0px auto;
