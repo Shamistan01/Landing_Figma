@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 /* Указываем box sizing */
 *,
 *::before,
@@ -63,10 +65,8 @@ select {
 }
 
 /* --------------------------------------------------------- */
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-
 body {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -109,8 +109,8 @@ header {
 }
 
 .first-block__h {
-  font-family: "Roboto Slab";
-  font-weight: bold;
+  font-family: "Roboto Slab",serif;
+  font-weight: bolder;
   font-size: 80px;
   margin-bottom: 20px;
   line-height: 1em;
@@ -125,16 +125,19 @@ header {
 
 .first-block__img-wrapper {
   display: flex;
+  position: relative;
 }
 
-.first-block__ellipse {
+/* .first-block__ellipse {
   position: absolute;
-  background-color: #efefef;
+  background: #efefef;
+  height: 41px;
+  top: 340px;
   bottom: 20px;
   left: -30px;
-  width: 150%;
+  width: 130%;
   z-index: -1;
-}
+} */
 
 .quote-wrapper {
   display: flex;
@@ -154,8 +157,8 @@ header {
 }
 
 .quote__p {
-  font-size: 24px;
   font-family: "Roboto Slab", serif;
+  font-size: 24px;
   text-align: left;
 }
 .author {
@@ -215,17 +218,20 @@ header {
     margin: 0px 30px;
   }
   header {
-    margin: 36px 0px 0px 35px;
+    margin: 36px 0px 0px 5px;
   }
   .logo {
-    width: 10%;
+    width: 14%;
   }
   .first-block {
-    margin: 45px 32px 0px 35px;
+    margin: 45px 32px 0px 5px;
   }
   .first-block__elements-wrapper {
-    width: 55%;
+    width: 80%;
     margin-bottom: 8px;
+  }
+  .first-block__element {
+    width: 100%;
   }
   .first-block__text-wrapper {
     display: block;
@@ -244,16 +250,16 @@ header {
     width: 142px;
   }
   .globe {
-    width: 35%;
-    height: 35%;
+    width: 10px;
+    height: 10px;
   }
   .clock {
-    width: 35%;
-    height: 35%;
+    width: 10px;
+    height: 10px;
   }
   .calendar {
-    width: 35%;
-    height: 35%;
+    width: 9px;
+    height: 10px;
   }
   .first-block__p {
     font-size: 10px;
@@ -277,8 +283,5 @@ header {
   }
   .author {
     font-size: 10px;
-  }
-  .first-block__element {
-    width: 100%;
   }
 }
