@@ -32,40 +32,6 @@ dd {
 }
 
 /* Выставляем основные настройки по-умолчанию для body */
-body {
-  min-height: 100vh;
-  scroll-behavior: smooth;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
-}
-
-/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
-ul[class],
-ol[class] {
-  list-style: none;
-}
-
-/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
-a:not([class]) {
-  text-decoration-skip-ink: auto;
-}
-
-/* Упрощаем работу с изображениями */
-img {
-  max-width: 100%;
-  display: block;
-}
-
-/* Наследуем шрифты для инпутов и кнопок */
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-
-
-
 
 /* ----------------------------------------------------header------------------------------------------ */
 
@@ -173,7 +139,6 @@ header {
   margin: 1em auto;
 }
 
-
 /* ------------------------------------block2-------------------------------------------- */
 .block2 {
   max-width: 1440px;
@@ -216,12 +181,11 @@ header {
 
 .upper-block__shadow {
   position: absolute;
-  bottom: 180px;
+  bottom: 120px;
   left: -30px;
   width: 150%;
   z-index: -1;
 }
-
 
 /* ------------lower-block---------------- */
 
@@ -268,11 +232,44 @@ header {
   font-size: 18px;
   line-height: 130%;
 }
+/*-------------------------------block3------------------------------------------*/
 
-/*-------------------------------fourth-block------------------------------------------*/
+.block3__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: 121px;
+}
+
+/* .container_header{
+} */
+h1 {
+  width: 90%;
+  height: 93px;
+  font-size: 35px;
+}
+.container_header_columns_up {
+  color: #1e4681;
+  font-weight: bold;
+  font-size: 25px;
+}
+.container_header_columns_down {
+  font-size: 18px;
+}
+.container_header_columns {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.container_footer {
+  margin-top: 100px;
+}
+li {
+  font-size: 24px;
+}
+
+/*-------------------------------block4------------------------------------------*/
 .main_container-wrapper {
   max-width: 1440px;
-  
   margin: 0px auto;
 }
 
@@ -282,7 +279,7 @@ header {
   font-weight: 700;
   line-height: 56px;
   margin-left: 99px;
-  margin-top: 20px;
+  margin-top: 100px;
 }
 
 .inn_containers {
@@ -321,10 +318,15 @@ header {
   margin-left: 10px;
 }
 
+/* ----------------------------------------------------block5------------------------------------------ */
 
+/* ----------------------------------------------------block6-footer----------------------------------- */
 
 @media (max-width: 1279px) and (min-width: 992px) {
   /* tablet resolution */
+
+  /* ----------------------------------------------------header------------------------------------------ */
+
   .container {
     width: 834px;
   }
@@ -368,45 +370,8 @@ header {
   .first-block__element {
     width: 25%;
   }
-  .main_container-wrapper {
-    max-width: 1260px;
-    margin: 0px auto;
-  }
-  .header {
-    font-family: Roboto Slab;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 32px;
-    margin-left: 140px;
-  }
 
-  .inn_containers {
-    margin: 0px auto;
-    display: flex;
-    margin: 55px 0px 0px 100px;
-  }
-
-  .inn_containers__element {
-    height: 190px;
-    width: 231px;
-    border-radius: 17.375px;
-  }
-
-  .inn_containers__element img {
-    height: 92px;
-    width: 231px;
-  }
-  .inn_containers__element__header {
-    font-size: 17px;
-    font-weight: 700;
-    line-height: 22px;
-  }
-
-  .inn_containers__element p:last-child {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18px;
-  }
+  /* ----------------------------------------------------block2------------------------------------------ */
 
   .block2 {
     max-width: 834px;
@@ -472,70 +437,91 @@ header {
   .lower-block__text {
     font-size: 11px;
   }
-  
+
+  /* -------------------------block3---------------------------------- */
+  .block3__container {
+    width: 80%;
+  }
+  h1 {
+    width: 386.3px;
+    height: 53.86px;
+    font-size: 32px;
+  }
+  .container_header_columns {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+  }
+  .container_header_columns_up {
+    color: #1e4681;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .container_header_columns_down {
+    font-size: 11px;
+  }
+
+  .container_footer {
+    margin-top: 100px;
+    width: 383.41px;
+    height: 216.61px;
+  }
+  li {
+    font-size: 14px;
+  }
+
+  /* ----------------------------------------------------block4------------------------------------------ */
+
+  .main_container-wrapper {
+    max-width: 1260px;
+    margin: 0px auto;
+  }
+  .header {
+    font-family: Roboto Slab;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-left: 140px;
+  }
+
+  .inn_containers {
+    margin: 0px auto;
+    display: flex;
+    margin: 55px 0px 0px 100px;
+  }
+
+  .inn_containers__element {
+    height: 190px;
+    width: 231px;
+    border-radius: 17.375px;
+  }
+
+  .inn_containers__element img {
+    height: 92px;
+    width: 231px;
+  }
+  .inn_containers__element__header {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22px;
+  }
+
+  .inn_containers__element p:last-child {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+
+  /* ----------------------------------------------------block5------------------------------------------ */
+
+  /* ----------------------------------------------------block6-footer----------------------------------- */
 }
 
 @media (min-width: 320px) and (max-width: 991px) {
-  .block2 {
-    max-width: 375px;
-  }
-
-  .upper-block {
-    justify-content: center;
-  }
-
-  .block2__wrapper {
-    margin: 0 31px 69px 36px;
-  }
-
-  .block2__title {
-    font-size: 26px;
-    margin-bottom: 23px;
-  }
-
-  .upper-block__paragraph-wrapper {
-    margin-bottom: 17px;
-  }
-  .upper-block__paragraph {
-    max-width: 308px;
-    font-size: 12px;
-    margin-bottom: 24px;
-  }
-
-  .upper-block__img-wrapper {
-    top: 0px;
-    max-width: 170.55px;
-    max-height: 160.29px;
-    margin-bottom: 60px;
-  }
-
-  .upper-block__shadow {
-    bottom: -30px;
-    left: -25px;
-    width: 130%;
-  }
-
-  /* ---------------------------- */
-
-  .lower-block__left-img {
-    display: none;
-  }
-
-  .lower-block__paragraph {
-    max-width: 86.88px;
-    margin-right: 33.3px;
-    margin-bottom: 34px;
-  }
-
-  .lower-block__title {
-    font-size: 12px;
-  }
-
-  .lower-block__text {
-    font-size: 10px;
-  }
-
   /* mobile resolution */
+
+  /* ----------------------------------------------------header------------------------------------------ */
+
   .container {
     min-width: 375px;
     margin: 0px 30px;
@@ -609,12 +595,105 @@ header {
     font-size: 10px;
     margin: 0px;
   }
+  /* -------------------------block2---------------------------------- */
+  .block2 {
+    max-width: 375px;
+  }
+
+  .upper-block {
+    justify-content: center;
+  }
+
+  .block2__wrapper {
+    margin: 0 31px 69px 36px;
+  }
+
+  .block2__title {
+    font-size: 26px;
+    margin-bottom: 23px;
+  }
+
+  .upper-block__paragraph-wrapper {
+    margin-bottom: 17px;
+  }
+  .upper-block__paragraph {
+    max-width: 308px;
+    font-size: 12px;
+    margin-bottom: 24px;
+  }
+
+  .upper-block__img-wrapper {
+    top: 0px;
+    max-width: 170.55px;
+    max-height: 160.29px;
+    margin-bottom: 60px;
+  }
+
+  .upper-block__shadow {
+    bottom: -30px;
+    left: -25px;
+    width: 130%;
+  }
+
+  /* ---------------------------- */
+
+  .lower-block__left-img {
+    display: none;
+  }
+
+  .lower-block__paragraph {
+    max-width: 86.88px;
+    margin-right: 33.3px;
+    margin-bottom: 34px;
+  }
+
+  .lower-block__title {
+    font-size: 12px;
+  }
+
+  .lower-block__text {
+    font-size: 10px;
+  }
+  /* ----------------------------------------------------block3------------------------------------------ */
+
+  .block3__container {
+    max-width: 1440px;
+  }
+  h1 {
+    width: 310.8px;
+    height: 43.34px;
+    font-size: 32px;
+  }
+  .container_header_columns {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container_header_columns_up {
+    color: #1e4681;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .container_header_columns_down {
+    font-size: 10px;
+  }
+
+  .container_footer {
+    margin-top: 100px;
+    width: 299px;
+    height: 174px;
+  }
+  li {
+    font-size: 12px;
+  }
+  /* ----------------------------------------------------block4------------------------------------------ */
+
   .main_container-wrapper {
     max-width: 375px;
     margin: 0px auto;
   }
 
-  .header {
+  .fourth-block__title {
     font-family: Roboto Slab;
     font-size: 26px;
     font-weight: 700;
@@ -649,6 +728,8 @@ header {
     line-height: 16px;
     margin-top: 9px;
   }
-  
-}
 
+  /* ----------------------------------------------------block5------------------------------------------ */
+
+  /* ----------------------------------------------------block6-footer------------------------------------------ */
+}
