@@ -63,8 +63,10 @@ select {
 }
 
 /* --------------------------------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 body {
-  font-family: Roboto, monospace;
+  font-family: Roboto, sans-serif;
 }
 
 .container {
@@ -115,16 +117,23 @@ header {
 }
 
 .first-block__p-wrapper {
-  /* width: 415px; */
-  width: 68%;
+  max-width: 415px;
 }
 .first-block__h-wrapper {
-  /* width: 630px; */
-  width: 100%;
+  max-width: 630px;
 }
 
 .first-block__img-wrapper {
   display: flex;
+}
+
+.first-block__ellipse {
+  position: absolute;
+  background-color: #efefef;
+  bottom: 20px;
+  left: -30px;
+  width: 150%;
+  z-index: -1;
 }
 
 .quote-wrapper {
@@ -164,7 +173,7 @@ header {
     margin: 22px 0px 0px 70px;
   }
   .first-block {
-    margin: 115px 141px 0px 70px;
+    margin: 55px 141px 0px 70px;
   }
   /* .first-block__elements-wrapper {
     width: 400px;
@@ -235,19 +244,20 @@ header {
     width: 142px;
   }
   .globe {
-    width: 30%;
-    height: 30%;
+    width: 35%;
+    height: 35%;
   }
   .clock {
-    width: 30%;
-    height: 30%;
+    width: 35%;
+    height: 35%;
   }
   .calendar {
-    width: 30%;
-    height: 30%;
+    width: 35%;
+    height: 35%;
   }
   .first-block__p {
     font-size: 10px;
+    min-width: 75px;
   }
   .first-block__h {
     font-size: 36px;
@@ -269,6 +279,6 @@ header {
     font-size: 10px;
   }
   .first-block__element {
-    width: 25%;
+    width: 100%;
   }
 }
