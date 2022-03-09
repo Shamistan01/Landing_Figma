@@ -279,8 +279,8 @@ header {
   line-height: 130%;
 }
 /*-------------------------------block3------------------------------------------*/
-ul{
-    padding: 20px;
+ul {
+  padding: 20px;
 }
 .block3__container {
   max-width: 1440px;
@@ -743,14 +743,14 @@ li {
     max-width: 834px;
   }
 
-  .main_container-wrapper{
-      max-width: 834px;
-      margin: auto;
+  .main_container-wrapper {
+    max-width: 834px;
+    margin: auto;
   }
 
-  .fourth-block__title{
-      font-size: 32px;
-      margin-left: 70px;
+  .fourth-block__title {
+    font-size: 32px;
+    margin-left: 70px;
   }
 
   .container__header {
@@ -1071,8 +1071,8 @@ li {
     margin: 0px auto;
   }
 
-  .inn_containers__element:last-child{
-      margin-bottom: 47px;
+  .inn_containers__element:last-child {
+    margin-bottom: 47px;
   }
 
   .fourth-block__title {
