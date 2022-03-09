@@ -1,5 +1,38 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
-body {
+
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+>>>>>>>Dev body {
   font-family: "Roboto", sans-serif;
   margin-left: 121px;
 }
@@ -25,7 +58,7 @@ h1 {
   width: 80%;
 }
 .container_footer {
-  margin-top: 160px;
+  margin-top: 100px;
 }
 li {
   font-size: 24px;
@@ -60,7 +93,7 @@ li {
   }
 
   .container_footer {
-    margin-top: 160px;
+    margin-top: 100px;
     width: 383.41px;
     height: 216.61px;
   }
@@ -103,5 +136,147 @@ li {
   }
   li {
     font-size: 12px;
+  }
+}
+
+/* my code */
+body {
+  margin: 0px auto;
+  font-family: roboto;
+}
+
+.main_container-wrapper {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.header {
+  font-family: Roboto Slab;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 56px;
+  margin-left: 99px;
+  margin-top: 100px;
+}
+
+.inn_containers {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 49px;
+  margin-top: 95px;
+}
+
+.inn_containers__element {
+  width: 399px;
+  height: 328px;
+  border-radius: 30px;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+  margin: 30px;
+}
+
+.inn_containers__element img {
+  width: 399px;
+  height: 160px;
+}
+
+.inn_containers__element__header {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 39px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.inn_containers__element p:last-child {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+@media (min-width: 992px) and (max-width: 1279px) {
+  .main_container-wrapper {
+    max-width: 1260px;
+    margin: 0px auto;
+  }
+  .header {
+    font-family: Roboto Slab;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-left: 140px;
+  }
+
+  .inn_containers {
+    margin: 0px auto;
+    display: flex;
+    margin: 55px 0px 0px 100px;
+  }
+
+  .inn_containers__element {
+    height: 190px;
+    width: 231px;
+    border-radius: 17.375px;
+  }
+
+  .inn_containers__element img {
+    height: 92px;
+    width: 231px;
+  }
+  .inn_containers__element__header {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22px;
+  }
+
+  .inn_containers__element p:last-child {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+  .main_container-wrapper {
+    max-width: 375px;
+    margin: 0px auto;
+  }
+
+  .header {
+    font-family: Roboto Slab;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26px;
+  }
+
+  .inn_containers {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .inn_containers__element {
+    height: 153px;
+    width: 186px;
+    border-radius: 14px;
+  }
+  .inn_containers__element img {
+    height: 75px;
+    width: 186px;
+  }
+
+  .inn_containers__element__header {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+  }
+
+  .inn_containers__element p:last-child {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-top: 9px;
   }
 }
