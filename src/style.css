@@ -32,7 +32,37 @@ dd {
 }
 
 /* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
 
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
 /* ----------------------------------------------------header------------------------------------------ */
 
 body {
@@ -319,7 +349,70 @@ li {
 }
 
 /* ----------------------------------------------------block5------------------------------------------ */
+.main_container {
+  background-color: #efefef;
+  margin: 0px auto;
+}
 
+.container {
+  margin: 0px auto;
+  height: 780px;
+  max-width: 1440px;
+}
+
+.container__header {
+  font-family: Roboto Slab;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 56px;
+  padding-top: 91px;
+  margin-left: 122px;
+}
+
+.card {
+  height: 451px;
+  width: 791px;
+  border-radius: 30px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
+  margin-left: 126px;
+  margin-top: 54px;
+}
+
+.card__text {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 40px 45px 0px 46px;
+}
+
+.card__social {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.card__social__photo img {
+  height: 169px;
+  width: 190px;
+}
+
+.card__social__meta__name {
+  margin-top: 40px;
+}
+
+.card__social__meta__name__text {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.card__social__meta__icon img {
+  height: 31px;
+  width: 32px;
+  margin-top: 20px;
+}
 /* ----------------------------------------block6----------------------------------------------------- */
 
 .block6 {
@@ -621,6 +714,57 @@ li {
   }
 
   /* ----------------------------------------------------block5------------------------------------------ */
+  .main_container {
+    margin: 0px auto;
+  }
+  .container {
+    height: 452px;
+    max-width: 834px;
+  }
+
+  .container__header {
+    padding-top: 40px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+
+  .card {
+    margin-top: 30px;
+    height: 261px;
+    width: 458px;
+    border-radius: 17.375px;
+  }
+
+  .card__text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-top: 24px;
+  }
+  .card__social {
+    margin-top: 1px;
+  }
+  .card__social__photo img {
+    height: 97px;
+    width: 110px;
+  }
+  .card__social__meta {
+    margin-top: -20px;
+  }
+  .card__social__meta__name__text {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 17px;
+  }
+  .card__social__meta__icon img {
+    height: 18px;
+    width: 19px;
+  }
+  .main_container {
+    background-color: #efefef;
+    margin: 0px auto;
+  }
 
   /* ----------------------------------------------------block6-footer----------------------------------- */
   .container {
@@ -924,7 +1068,52 @@ li {
   }
 
   /* ----------------------------------------------------block5------------------------------------------ */
-
+  .main_container {
+    margin: 0px auto;
+  }
+  .container {
+    height: 423px;
+    width: 376px;
+  }
+  .container__header {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26px;
+    padding-top: 20px;
+    margin-left: 0px;
+  }
+  .card {
+    margin-top: 20px;
+    margin-left: 0px;
+    height: 248px;
+    width: 308px;
+    border-radius: 14px;
+  }
+  .card__text {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    padding: 20px;
+  }
+  .card__social {
+    margin-top: -10px;
+  }
+  .card__social__photo img {
+    height: 84px;
+    width: 80px;
+  }
+  .card__social__meta {
+    margin-top: -20px;
+  }
+  .card__social__meta__name__text {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+  }
+  .card__social__meta__icon img {
+    height: 17px;
+    width: 15px;
+  }
   /* --------------------------------------------------block6-footer------------------------------------- */
 
   .container {
@@ -1012,4 +1201,12 @@ li {
     margin: 0px 0px 10px 35px;
     font-size: 10px;
   }
+}
+
+/* my code */
+
+@media (min-width: 992px) and (max-width: 1279px) {
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
 }
