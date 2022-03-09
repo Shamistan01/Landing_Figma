@@ -258,8 +258,8 @@ select {
 
   .upper-block__img-wrapper {
     top: 0px;
-    width: 170.55px;
-    height: 160.29px;
+    max-width: 170.55px;
+    max-height: 160.29px;
     margin-bottom: 60px;
   }
 
