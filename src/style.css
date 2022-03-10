@@ -90,6 +90,11 @@ select {
 }
 /* ----------------------------------------------------header------------------------------------------ */
 
+.first-block__img {
+  position: relative;
+  
+}
+
 .container {
   margin: 0 auto;
   max-width: 1440px;
@@ -146,14 +151,14 @@ header {
 
 .first-block__img-wrapper {
   display: flex;
-  position: relative;
 }
 
 .first-block__ellipse {
   position: absolute;
   z-index: -1;
   bottom: -20px;
-  left: 20px;
+  width: 90%;
+  left: 30px;
 }
 
 .quote-wrapper {
@@ -389,7 +394,7 @@ li {
 
 .card {
   height: 451px;
-  width: 791px;
+  max-width: 791px;
   border-radius: 30px;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
   background-color: #ffffff;
@@ -556,9 +561,9 @@ li {
     margin: 55px 141px 0px 70px;
   }
   .first-block__ellipse {
-    width: 60%;
-    left: 120px;
-    bottom: -15px;
+    width: 70%;
+    left: 5px;
+    bottom: -7px;
   }
   .first-block__img-wrapper {
     justify-content: flex-end;
@@ -764,7 +769,7 @@ li {
   .card {
     margin-top: 30px;
     height: 261px;
-    width: 458px;
+    max-width: 458px;
     border-radius: 17.375px;
     margin-left: 72px;
   }
@@ -901,9 +906,10 @@ li {
   }
 
   .first-block__ellipse {
-    width: 50%;
-    left: 170px;
+    
+    left: 10px;
     bottom: -10px;
+    
   }
   .logo {
     width: 14%;
@@ -923,7 +929,7 @@ li {
     margin-bottom: 45px;
   }
   .first-block__h-wrapper {
-    width: 300px;
+    width: 280px;
   }
   .first-block__p-wrapper {
     width: 210px;
@@ -1037,7 +1043,7 @@ li {
     padding-left: 35px;
   }
   .block3__title {
-    width: 310.8px;
+    max-width: 310.8px;
     height: 43.34px;
     font-size: 32px;
   }
@@ -1059,7 +1065,7 @@ li {
 
   .container_footer {
     margin-top: 100px;
-    width: 299px;
+    max-width: 299px;
   }
   li {
     font-size: 12px;
@@ -1118,7 +1124,7 @@ li {
   }
   .container__wrapper {
     height: 423px;
-    width: 376px;
+    max-width: 376px;
   }
   .container__header {
     font-size: 26px;
@@ -1131,8 +1137,9 @@ li {
   .card {
     margin-top: 20px;
     margin-left: 35px;
-    height: 248px;
-    width: 308px;
+    max-height: 248px;
+    max-width: 308px;
+    margin-right: 32px ;
     border-radius: 14px;
   }
   .card__text {
@@ -1142,7 +1149,7 @@ li {
     padding: 20px;
   }
   .card__social {
-    margin-top: -10px;
+    margin-top: -8px;
     margin-left: 5px;
   }
   .card__social__photo img {
