@@ -96,15 +96,18 @@ select {
 
 .container {
   margin: 0 auto;
-  max-width: 1440px;
+  max-width: 1192px;
 }
 
 header {
-  margin: 21px 0px 100px 121px;
+  height: 100px;
+  display: flex;
+  align-items: center;
 }
 
+
 .first-block {
-  margin: 0px 245px 0px 121px;
+  margin-top: 80px;
 }
 
 .first-block__elements-wrapper {
