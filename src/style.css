@@ -125,6 +125,7 @@ header {
 
 .first-block__img-wrapper {
   display: flex;
+  position: relative;
 }
 
 .first-block__ellipse {
