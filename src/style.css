@@ -92,7 +92,6 @@ select {
 
 .first-block__img {
   position: relative;
-  
 }
 
 .container {
@@ -411,7 +410,7 @@ li {
 }
 
 .card__social {
-  display: flex;
+  display: inline-flex;
   margin-top: 30px;
   margin-left: 20px;
 }
@@ -906,10 +905,8 @@ li {
   }
 
   .first-block__ellipse {
-    
     left: 10px;
     bottom: -10px;
-    
   }
   .logo {
     width: 14%;
@@ -1139,10 +1136,11 @@ li {
     margin-left: 35px;
     max-height: 248px;
     max-width: 308px;
-    margin-right: 32px ;
+    margin-right: 32px;
     border-radius: 14px;
   }
   .card__text {
+    min-width: 266px;
     font-size: 10px;
     font-weight: 400;
     line-height: 15px;
@@ -1254,5 +1252,6 @@ li {
   .footer__copyright {
     margin: 0px 0px 10px 35px;
     font-size: 10px;
+    min-width: 102px;
   }
 }
