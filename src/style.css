@@ -205,30 +205,30 @@ header {
 
 /* --------------upper-block--------------- */
 
-.upper-block {
+.block2-upper {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.upper-block__paragraph-wrapper {
+.block2-upper__paragraph-wrapper {
   height: 500px;
 }
-.upper-block__paragraph {
+.block2-upper__paragraph {
   font-family: "Roboto", sans-serif;
   max-width: 662px;
   font-size: 24px;
   margin-bottom: 45px;
 }
 
-.upper-block__img-wrapper {
+.block2-upper__img-wrapper {
   position: relative;
   top: 30px;
   height: 400px;
   right: 30px
 }
 
-.upper-block__shadow {
+.block2-upper__shadow {
   position: absolute;
   bottom: 50px;
   left: -30px;
@@ -238,26 +238,26 @@ header {
 
 /* ------------lower-block---------------- */
 
-.lower-block {
+.block2-lower {
   display: flex;
   height: 500px;
 }
 
-.lower-block__left-img {
+.block2-lower__left-img {
   position: relative;
   max-width: 232px;
   margin-right: 132px;
 height: 220px;
 }
 
-.lower-block__shadow {
+.block2-lower__shadow {
   position: absolute;
   bottom: 0px;
   z-index: -1;
   left: 25px;
 }
 
-.lower-block__paragraph-wrapper {
+.block2-lower__paragraph-wrapper {
   display: flex;
   position: relative;
   top: 80px;
@@ -265,22 +265,22 @@ height: 220px;
   flex-wrap: wrap;
 }
 
-.lower-block__paragraph {
+.block2-lower__paragraph {
   max-width: 150px;
   margin-right: 95px;
 }
 
-.lower-block__paragraph:last-child {
+.block2-lower__paragraph:last-child {
   margin: 0;
 }
 
-.lower-block__title {
+.block2-lower__title {
   font-weight: bold;
   font-size: 25px;
   line-height: 130%;
 }
 
-.lower-block__text {
+.block2-lower__text {
   font-size: 18px;
   line-height: 130%;
 }
@@ -612,22 +612,22 @@ li {
     height: 80px;
   }
 
-  .upper-block__paragraph-wrapper {
+  .block2-upper__paragraph-wrapper {
     height: 300px;
   }
-  .upper-block__paragraph {
+  .block2-upper__paragraph {
     max-width: 383px;
     font-size: 14px;
     margin-bottom: 27px;
   }
 
-  .upper-block__img-wrapper {
+  .block2-upper__img-wrapper {
     top: 30px;
     max-width: 181.86px;
     max-height: 182.44px;
   }
 
-  .upper-block__shadow {
+  .block2-upper__shadow {
     bottom: -25px;
     left: -30px;
     width: 135%;
@@ -635,40 +635,40 @@ li {
 
   /* ---------------------------- */
 
-  .lower-block{
+  .block2-lower{
     height: 210px;
   }
 
-  .lower-block__paragraph-wrapper{
+  .block2-lower__paragraph-wrapper{
     top: 40px;
   }
 
-  .lower-block__left-img {
+  .block2-lower__left-img {
     width: 134.37px;
     height: 117.57px;
     margin-right: 76.5px;
   }
 
-  .lower-block__shadow {
+  .block2-lower__shadow {
     position: absolute;
     bottom: -10px;
     left: 15px;
   }
 
-  .lower-block__paragraph {
+  .block2-lower__paragraph {
     max-width: 86.88px;
     margin-right: 55.2px;
   }
 
-  .lower-block__paragraph:nth-child(2) {
+  .block2-lower__paragraph:nth-child(2) {
     max-width: 91px;
   }
 
-  .lower-block__title {
+  .block2-lower__title {
     font-size: 15px;
   }
 
-  .lower-block__text {
+  .block2-lower__text {
     font-size: 11px;
   }
 
@@ -985,24 +985,24 @@ li {
     height: 60px;
   }
 
-  .upper-block__paragraph-wrapper {
+  .block2-upper__paragraph-wrapper {
    height: 250px;
   }
 
-  .upper-block__paragraph {
+  .block2-upper__paragraph {
     max-width: 308px;
     font-size: 12px;
     margin-bottom: 24px;
   }
 
-  .upper-block__img-wrapper {
+  .block2-upper__img-wrapper {
     top: 0px;
     max-width: 170.55px;
     max-height: 160.29px;
     right: -65px;
   }
 
-  .upper-block__shadow {
+  .block2-upper__shadow {
     bottom: -30px;
     left: -25px;
     width: 130%;
@@ -1010,30 +1010,30 @@ li {
 
   /* ---------------------------- */
 
-  .lower-block__left-img {
+  .block2-lower__left-img {
     display: none;
   }
 
-  .lower-block__paragraph-wrapper{
+  .block2-lower__paragraph-wrapper{
     max-width: 250px;
     height: 100px;
   }
 
-  .lower-block{
+  .block2-lower{
     height: 250px;
   }
 
-  .lower-block__paragraph {
+  .block2-lower__paragraph {
     max-width: 86.88px;
     margin-right: 33.3px;
     margin-bottom: 34px;
   }
 
-  .lower-block__title {
+  .block2-lower__title {
     font-size: 12px;
   }
 
-  .lower-block__text {
+  .block2-lower__text {
     font-size: 10px;
   }
   /* ----------------------------------------------------block3------------------------------------------ */
