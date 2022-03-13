@@ -425,19 +425,19 @@ li {
   margin-left: 20px;
 }
 
-.block5__card-social__photo img {
+.block5-social__photo img {
   height: 169px;
   width: 190px;
 }
 
-.block5__card-social__meta-name {
+.block5-social__meta-name {
   font-size: 30px;
   font-weight: 700;
   line-height: 30px;
   margin-top: 40px;
 }
 
-.block5__card-social__meta-icon img {
+.block5-social__meta-icon img {
   height: 31px;
   width: 32px;
   margin-top: 20px;
@@ -808,19 +808,19 @@ li {
   .block5__card-social {
     margin-top: 1px;
   }
-  .block5__card-social__photo img {
+  .block5-social__photo img {
     height: 97px;
     width: 110px;
   }
-  .block5__card-social__meta {
+  .block5-social__meta {
     margin-top: -20px;
   }
-  .block5__card-social__meta-name__text {
+  .block5-social__meta-name__text {
     font-size: 17px;
     font-weight: 700;
     line-height: 17px;
   }
-  .block5__card-social__meta-icon img {
+  .block5-social__meta-icon img {
     height: 18px;
     width: 19px;
   }
@@ -1155,19 +1155,19 @@ li {
     margin-top: -8px;
     margin-left: 5px;
   }
-  .block5__card-social__photo img {
+  .block5-social__photo img {
     height: 80px;
     width: 90px;
   }
-  .block5__card-social__meta {
+  .block5-social__meta {
     margin-top: -20px;
   }
-  .block5__card-social__meta-name {
+  .block5-social__meta-name {
     font-size: 14px;
     font-weight: 700;
     line-height: 14px;
   }
-  .block5__card-social__meta-icon img {
+  .block5-social__meta-icon img {
     height: 17px;
     width: 15px;
   }
