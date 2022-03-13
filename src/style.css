@@ -347,7 +347,7 @@ li {
   flex-wrap: wrap;
 }
 
-.block4__cards__element {
+.block4__element {
   width: 399px;
   height: 328px;
   border-radius: 30px;
@@ -355,7 +355,7 @@ li {
   margin: 15px;
 }
 
-.block4__cards__element img {
+.block4__element img {
   width: 399px;
   height: 160px;
 }
@@ -368,7 +368,7 @@ li {
   margin-left: 10px;
 }
 
-.block4__cards__element p:last-child {
+.block4__element p:last-child {
   font-size: 25px;
   font-weight: 400;
   line-height: 32px;
@@ -757,13 +757,13 @@ li {
     flex-wrap: wrap;
   }
 
-  .block4__cards__element {
+  .block4__element {
     height: 190px;
     width: 231px;
     border-radius: 17.375px;
   }
 
-  .block4__cards__element img {
+  .block4__element img {
     height: 92px;
     width: 231px;
   }
@@ -773,7 +773,7 @@ li {
     line-height: 22px;
   }
 
-  .block4__cards__element p:last-child {
+  .block4__element p:last-child {
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
@@ -1104,12 +1104,12 @@ li {
     display: flex;
     justify-content: center;
   }
-  .block4__cards__element {
+  .block4__element {
     height: 153px;
     width: 186px;
     border-radius: 14px;
   }
-  .block4__cards__element img {
+  .block4__element img {
     height: 75px;
     width: 186px;
   }
@@ -1120,7 +1120,7 @@ li {
     line-height: 18px;
   }
 
-  .block4__cards__element p:last-child {
+  .block4__element p:last-child {
     font-size: 12px;
     font-weight: 400;
     line-height: 16px;
