@@ -287,42 +287,50 @@ header {
   line-height: 130%;
 }
 /*-------------------------------block3------------------------------------------*/
-ul {
-  padding: 20px;
-}
-.block3__container {
-  max-width: 1440px;
-  margin: 0 auto;
-  padding-left: 121px;
-}
+
 
 /* .container_header{
 } */
-.block3__title {
+.block3__title{
   width: 90%;
   height: 93px;
   font-size: 55px;
 }
-.container_header_columns_up {
+.block3__footer{
+  padding-top: 85px;
+}
+.block3__columns-up {
   color: #1e4681;
   font-weight: bold;
   font-size: 25px;
+  margin-top: 60px;
 }
-.container_header_columns_down {
+.block3__columns-down {
   font-size: 18px;
 }
-.container_header_columns {
+.block3__header-columns{
   display: flex;
   justify-content: space-between;
   width: 80%;
 }
-.container_footer {
-  margin-top: 100px;
+.block3__footer {
+  margin-top: 30px;
 }
-li {
-  font-size: 24px;
+.block3__questions{
+  margin-top: 50px;
+  list-style: disc;
+  
 }
-
+.block3__footer ul{
+  list-style-type: disc;
+  margin-left: 2%;
+  margin-bottom: 65px;
+}
+.block3__question-items {
+  font-size: 25px;
+  margin-top: 20px;
+  
+}
 /*-------------------------------block4------------------------------------------*/
 
 .block4__title {
@@ -330,7 +338,7 @@ li {
   font-size: 55px;
   font-weight: 700;
   line-height: 56px;
-  /* margin-left: 121px; */
+  margin-left: 80px;
   margin-top: 100px;
 }
 
@@ -707,36 +715,45 @@ li {
   }
 
   /* -------------------------block3---------------------------------- */
-  .block3__container {
-    max-width: 834px;
-    padding-left: 70px;
-  }
+  
+  
+  /* .container_header{
+  } */
   .block3__title {
-    width: 386.3px;
-    height: 53.86px;
+    width: 90%;
+    height: 93px;
     font-size: 32px;
   }
-  .container_header_columns {
+  .block3__footer{
+    padding-top: 85px;
+  }
+  .block3__columns-up {
+    color: #1e4681;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 60px;
+  }
+  .block3__columns-down {
+    font-size: 11px;
+  }
+  .block3__header-columns{
     display: flex;
     justify-content: space-between;
     width: 80%;
   }
-  .container_header_columns_up {
-    color: #1e4681;
-    font-weight: bold;
-    font-size: 15px;
-  }
-  .container_header_columns_down {
-    font-size: 11px;
-  }
-
-  .container_footer {
+  .block3__footer {
     margin-top: 100px;
-    width: 383.41px;
   }
-  li {
+  .block3__questions {
+    margin-top: 50px;
+    
+  }
+  .block3__question-items {
     font-size: 14px;
+    margin-top: 20px;
+   
   }
+  
 
   /* ----------------------------------------------------block4------------------------------------------ */
   .block4 {
@@ -1061,39 +1078,52 @@ li {
     font-size: 10px;
   }
   /* ----------------------------------------------------block3------------------------------------------ */
-
-  .block3__container {
-    max-width: 375px;
-    padding-left: 35px;
-  }
+  
+  /* .container_header{
+  } */
   .block3__title {
-    max-width: 310.8px;
-    height: 43.34px;
-    font-size: 32px;
+    width: 90%;
+    height: 50px;
+    font-size: 26px;
   }
-  .container_header_columns {
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
+  .block3__footer{
+    padding-top: 85px;
   }
-  .container_header_columns_up {
+  .block3__columns-up {
     color: #1e4681;
     font-weight: bold;
     font-size: 12px;
+    margin-top: 5px;
   }
-  .container_header_columns_down {
+  .block3__columns-down {
     font-size: 10px;
-    width: 200px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
   }
-
-  .container_footer {
-    margin-top: 100px;
-    max-width: 299px;
+  .block3__header-columns{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 70%;
+    padding-bottom: 10px;
+    
   }
-  li {
+  .block3__footer  {
+    padding-top: 5px;
+  }
+  .block3__questions  {
+    margin-bottom: 80px;
+    margin-top: 90px;
+  }
+  .block3__footer ul{
+    margin-left: 10px;
+  }
+  .block3__question-items {
     font-size: 12px;
+    margin-top: 5px;
+    width: 600px;
+    
   }
+  
   /* ----------------------------------------------------block4------------------------------------------ */
 
   .block4{
