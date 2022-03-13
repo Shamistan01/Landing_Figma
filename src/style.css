@@ -341,13 +341,13 @@ li {
   margin: 0px auto;
 }
 
-.block4_block5__cards {
+.block4__cards {
   margin-top: 100px;
   display: flex;
   flex-wrap: wrap;
 }
 
-.block4_block5__cards__element {
+.block4__cards__element {
   width: 399px;
   height: 328px;
   border-radius: 30px;
@@ -355,12 +355,12 @@ li {
   margin: 15px;
 }
 
-.block4_block5__cards__element img {
+.block4__cards__element img {
   width: 399px;
   height: 160px;
 }
 
-.block4_block5__cards-header {
+.block4__cards-header {
   font-size: 30px;
   font-weight: 700;
   line-height: 39px;
@@ -368,7 +368,7 @@ li {
   margin-left: 10px;
 }
 
-.block4_block5__cards__element p:last-child {
+.block4__cards__element p:last-child {
   font-size: 25px;
   font-weight: 400;
   line-height: 32px;
@@ -751,29 +751,29 @@ li {
     margin-left: 40px;
   }
 
-  .block4_block5__cards {
+  .block4__cards {
     margin: 55px auto;
     display: flex;
     flex-wrap: wrap;
   }
 
-  .block4_block5__cards__element {
+  .block4__cards__element {
     height: 190px;
     width: 231px;
     border-radius: 17.375px;
   }
 
-  .block4_block5__cards__element img {
+  .block4__cards__element img {
     height: 92px;
     width: 231px;
   }
-  .block4_block5__cards-header {
+  .block4__cards-header {
     font-size: 17px;
     font-weight: 700;
     line-height: 22px;
   }
 
-  .block4_block5__cards__element p:last-child {
+  .block4__cards__element p:last-child {
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
@@ -1099,28 +1099,28 @@ li {
     margin: 0px;
   }
 
-  .block4_block5__cards {
+  .block4__cards {
     margin: 30px;
     display: flex;
     justify-content: center;
   }
-  .block4_block5__cards__element {
+  .block4__cards__element {
     height: 153px;
     width: 186px;
     border-radius: 14px;
   }
-  .block4_block5__cards__element img {
+  .block4__cards__element img {
     height: 75px;
     width: 186px;
   }
 
-  .block4_block5__cards-header {
+  .block4__cards-header {
     font-size: 14px;
     font-weight: 700;
     line-height: 18px;
   }
 
-  .block4_block5__cards__element p:last-child {
+  .block4__cards__element p:last-child {
     font-size: 12px;
     font-weight: 400;
     line-height: 16px;
