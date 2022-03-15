@@ -242,7 +242,7 @@ header {
 
 .block2-lower {
   display: flex;
-  height: 500px;
+  height: 400px;
 }
 
 .block2-lower__left-img {
@@ -420,6 +420,7 @@ header {
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
   background-color: #ffffff;
   margin-left: 20px;
+  padding: 40px;
 }
 
 .block5__card-text {
@@ -427,13 +428,12 @@ header {
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
-  padding: 40px 45px 0px 46px;
+  
 }
 
 .block5__card-social {
   display: flex;
   margin-top: 30px;
-  margin-left: 20px;
 }
 
 .block5-social__photo img {
@@ -821,16 +821,17 @@ header {
     height: 261px;
     max-width: 458px;
     border-radius: 17.375px;
+    padding: 30px;
   }
 
   .block5__card-text {
     font-size: 12px;
     font-weight: 400;
     line-height: 18px;
-    padding-top: 24px;
+    
   }
   .block5__card-social {
-    margin-top: 1px;
+    margin-top: 15px;
   }
 
   .block5-social__photo img {
@@ -1188,17 +1189,19 @@ header {
     max-height: 248px;
     max-width: 308px;
     border-radius: 14px;
+    margin-left: 0px;
+    padding: 20px;
   }
   .block5__card-text {
     min-width: 266px;
     font-size: 10px;
     font-weight: 400;
     line-height: 15px;
-    padding: 20px;
+    
   }
   .block5__card-social {
-    margin-top: -8px;
-    margin-left: 5px;
+    margin-top: 15px;
+    
   }
 
   .block5-social__photo img {
