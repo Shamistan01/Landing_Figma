@@ -102,7 +102,7 @@ header {
   align-items: center;
 }
 
-.first-block {
+.first-block__container{
   margin-top: 80px;
 }
 
@@ -296,9 +296,7 @@ header {
   height: 93px;
   font-size: 55px;
 }
-.block3__footer{
-  padding-top: 85px;
-}
+
 .block3__columns-up {
   color: #1e4681;
   font-weight: bold;
@@ -314,7 +312,7 @@ header {
   width: 80%;
 }
 .block3__footer {
-  margin-top: 30px;
+  margin-top: 100px;
 }
 .block3__questions{
   margin-top: 50px;
@@ -393,7 +391,7 @@ header {
   background-color: #efefef;
 }
 
-.block5_wrapper {
+.block5__container {
   margin: 0px auto;
   max-width: 1271px;
   height: 780px;
@@ -585,7 +583,7 @@ header {
     width: 52.19px;
     height: 30.75px;
   }
-  .first-block {
+  .first-block__container{
     margin-top: 36px;
   }
   .first-block__elements-wrapper {
@@ -724,9 +722,6 @@ header {
     height: 93px;
     font-size: 32px;
   }
-  .block3__footer{
-    padding-top: 85px;
-  }
   .block3__columns-up {
     color: #1e4681;
     font-weight: bold;
@@ -742,7 +737,7 @@ header {
     width: 80%;
   }
   .block3__footer {
-    margin-top: 100px;
+    margin-top: 70px;
   }
   .block3__questions {
     margin-top: 50px;
@@ -805,7 +800,7 @@ header {
 
   /* ----------------------------------------------------block5------------------------------------------ */
 
-  .block5_wrapper {
+  .block5__container {
     height: 452px;
     max-width: 736px;
     margin: 0px auto;
@@ -948,7 +943,7 @@ header {
   header {
     height: 100px;
   }
-  .first-block {
+  .first-block__container{
     margin-top: 0px;
   }
   .first-block__ellipse {
@@ -1087,9 +1082,6 @@ header {
     height: 50px;
     font-size: 26px;
   }
-  .block3__footer{
-    padding-top: 85px;
-  }
   .block3__columns-up {
     color: #1e4681;
     font-weight: bold;
@@ -1108,8 +1100,9 @@ header {
     padding-bottom: 10px;
     
   }
-  .block3__footer  {
-    padding-top: 5px;
+
+  .block3__footer{
+    margin-top: 30px;
   }
   .block3__questions  {
     margin-bottom: 80px;
@@ -1121,7 +1114,7 @@ header {
   .block3__question-items {
     font-size: 12px;
     margin-top: 5px;
-    width: 600px;
+    max-width: 600px;
     
   }
   
@@ -1142,7 +1135,7 @@ header {
 
 
   .block4__cards {
-    margin: 30px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
   }
@@ -1175,7 +1168,7 @@ header {
 
   /* ----------------------------------------------------block5------------------------------------------ */
 
-  .block5_wrapper {
+  .block5__container {
     height: 423px;
     max-width: 308px;
   }
