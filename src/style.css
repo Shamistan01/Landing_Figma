@@ -93,7 +93,6 @@ select {
 .container {
   margin: 0 auto;
   max-width: 1192px;
-  overflow: hidden;
 }
 
 header {
@@ -340,7 +339,7 @@ header {
   margin-top: 100px;
 }
 
-.block4 {
+.block4__container{
   display: flex;
   flex-direction: column;
   max-width: 1340px;
@@ -751,7 +750,7 @@ header {
   
 
   /* ----------------------------------------------------block4------------------------------------------ */
-  .block4 {
+  .block4__container{
     display: flex;
     flex-direction: column;
     max-width: 800px;
